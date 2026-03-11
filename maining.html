@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Untitled Webpage</h1>
+    <link rel="stylesheet" href="color.css">
+    <label for="code">Please fill your SIGMA CODE: <br></label>
+    <input type="text" id="code" name="code">
+    <button type="button" id="myButton">Click Me</button>
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            var code = document.getElementById("code").value;
+            if (code === "SIGMA123") {
+                alert("You got the first secret page.");
+                window.location.href = "https://youtu.be/eVTXPUF4Oz4?si=nrSV9VoQBCCtLwV9";
+            } else if (code === "LinkinKapao67"){
+                alert("You got the second secret page.");
+                window.location.href = "c:\Users\WinWaWa\Downloads\ข้อความในย่อหน้าของคุณ.png";
+            } else if (code === "   " || code === ""){
+                alert("Please enter a code.");
+            } else {
+                alert("Incorrect code. Please try again.");
+                document.getElementById("code").value = "";
+            }
+        }); 
+        </script>
+    
+    <h6>***This website may contain more than 1 secret pages. Please check your spelling before submitting.</h6>
+
+</body>
+</html>
