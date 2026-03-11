@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: 1.7;
+  background: #f4f7fb;
+  color: #333;
+}
+
+h1{
+    font: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    text-align: center;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darksalmon;
+    color: saddlebrown;
+}
+
+h6{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
