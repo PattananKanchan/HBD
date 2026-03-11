@@ -26,3 +26,7 @@ h6{
     font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.about {
+  font: bold;
+}
